@@ -19,25 +19,30 @@ Here I share various works and I hope you enjoy them.
 
 ⏳ ***Game is in progress!***  
 Anyone can make the next move by [opening an issue](../../issues/new)  
-Just type the move in the issue title, like: **D3**
-
-<br>
+Just type the move in the issue title using this format: **`move: D3`**
 
 🧾 ***How to play***
-
 1. Click the link above to open a new issue.
-2. In the issue title, write your move (e.g., `E3`, `D2`, etc).
+2. In the **issue title**, write your move using the format:  
+`move: D3` (or any coordinate A1–H8).
 3. The system will:
-   - Check your move,
-   - Update the board,
-   - Save the changes automatically.
+   - Validate your move (correct format, valid position, and turn),
+   - Flip the opponent's pieces,
+   - Update the board and save it automatically.
 
-No need to write anything else. Just one move at a time.  
+⚠️ ***Notes:***
+- `move:` must be written at the beginning of the title.
+- The move must be valid (your turn, cell not occupied, must flip at least one piece).
+- One move per issue.
+- No need to write anything else. Just one move at a time. 
 Make sure it's your turn (⚫ or ⚪)!
 
 <br>
 
 🟩 ***Current Board***
+
+<!-- GAME-START -->
+<!-- GAME-END -->
 
 |   | A | B | C | D | E | F | G | H |
 |---|---|---|---|---|---|---|---|---|
@@ -48,8 +53,7 @@ Make sure it's your turn (⚫ or ⚪)!
 | 4 |   |   |   | ⚫ | ⚪ |   |   |   |
 | 3 |   |   |   |   |   |   |   |   |
 | 2 |   |   |   |   |   |   |   |   |
-| 1 |   |   |   |   |   |   |   |   
-|
+| 1 |   |   |   |   |   |   |   |   |
 
 ✅ ***Next turn: ⚫ Black***
 

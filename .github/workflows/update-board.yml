@@ -7,6 +7,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -24,4 +25,4 @@ jobs:
           git config user.email "actions@github.com"
           git add .
           git commit -m "Update board after move" || echo "No changes to commit"
-          git push
+          git push origin HEAD:main
