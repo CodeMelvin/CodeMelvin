@@ -1,7 +1,5 @@
-<br clear="both">
-
 <div align="center">
-  <img height="500" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHk4NzB2cmtsdW4xeGpzdGlkdnNtajJjbzBpM3htNzZzYnI2cjE5aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7uDtQm2jKdS0VGLg46/giphy.gif"  />
+  <img height="800" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHk4NzB2cmtsdW4xeGpzdGlkdnNtajJjbzBpM3htNzZzYnI2cjE5aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7uDtQm2jKdS0VGLg46/giphy.gif"  />
 </div>
 
 ###
@@ -20,7 +18,7 @@
 
 <h2 align="left">🎮 Gaming For Fun</h2>
 
- **⏳ Game is in progress!**
+**⏳ Game is in progress!**
 
 Anyone can play the next move by [opening an issue](../../issues/new?title=Move:+D3).  
 It’s your turn! Just submit your move in the format: `D3`
@@ -167,7 +165,11 @@ It’s your turn! Just submit your move in the format: `D3`
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="50" alt="jupyter logo"  />
   <img width="20" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="50" alt="visualstudio logo"  />
-  <img width="20" />
+</div>
+
+###
+
+<div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/safari/safari-original.svg" height="50" alt="safari logo"  />
   <img width="20" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" height="50" alt="firefox logo"  />
@@ -214,11 +216,25 @@ It’s your turn! Just submit your move in the format: `D3`
 ###
 
 <div align="left">
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=plastic" height="50" alt="youtube logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=plastic" height="50" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=plastic" height="50" alt="instagram logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=plastic" height="50" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=plastic" height="50" alt="linkedin logo"  />
+<a href="https://www.youtube.com/@YourChannel" target="_blank">
+  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=plastic" height="50" alt="youtube logo" />
+</a>
+
+<a href="mailto:yourmail@gmail.com" target="_blank">
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=plastic" height="50" alt="gmail logo" />
+</a>
+
+<a href="https://www.instagram.com/yourusername" target="_blank">
+  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=plastic" height="50" alt="instagram logo" />
+</a>
+
+<a href="https://discord.gg/yourservercode" target="_blank">
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=plastic" height="50" alt="discord logo" />
+</a>
+
+<a href="https://www.linkedin.com/in/yourusername/" target="_blank">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=plastic" height="50" alt="linkedin logo" />
+</a>
 </div>
 
 ###
@@ -240,5 +256,3 @@ It’s your turn! Just submit your move in the format: `D3`
 </picture>
 
 ###
-
-
