@@ -5,47 +5,17 @@ BOARD_FILE = "board.txt"
 README_FILE = "README.md"
 
 def read_board():
-    with open(BOARD_FILE, "r") as f:
+    with open(BOARD_FILE, "r", encoding="utf-8") as f:
         lines = [line.strip() for line in f.readlines()]
     board = lines[:8]
     next_player = lines[-1].split(":")[1].strip()
     return board, next_player
 
 def write_board(board, next_player):
-    with open(BOARD_FILE, "w") as f:
+    with open(BOARD_FILE, "w", encoding="utf-8") as f:
         for row in board:
             f.write(row + "\n")
         f.write(f"\nNext: {next_player}\n")
-
-def render_readme(board, next_player):
-    header = "# ♟️ Community Reversi Game\n\n"
-    header += "⏳ **Game is in progress!**\n\n"
-    header += "Anyone can play the next move by [opening an issue](../../issues/new?title=Move:+D3).\n"
-    header += "It’s your turn! Just submit your move in the format: `D3`.\n\n"
-    header += "---\n\n"
-    header += "## 🟩 Current Board\n\n"
-
-    # Column header
-    md = "| |A|B|C|D|E|F|G|H|\n"
-    md += "|-|-|-|-|-|-|-|-|-|\n"
-
-    emoji_map = {
-        ".": "",
-        "B": "⚫",
-        "W": "⚪"
-    }
-
-    for row in range(8):
-        md += f"|{8-row}"
-        for col in range(8):
-            cell = board[row][col]
-            md += f"|{emoji_map.get(cell, '')}"
-        md += "|\n"
-
-    md += f"\n✅ Next player: {'⚫ Black' if next_player == 'B' else '⚪ White'}\n"
-
-    with open(README_FILE, "w", encoding="utf-8") as f:
-        f.write(header + md)
 
 def parse_move():
     log = subprocess.check_output(["git", "log", "-1", "--pretty=%B"]).decode()
@@ -80,6 +50,45 @@ def apply_move(board, row, col, player):
 
 def switch_player(player):
     return "W" if player == "B" else "B"
+
+def generate_game_md(board, next_player):
+    md = f"✅ **Next player: {'⚫ Black' if next_player == 'B' else '⚪ White'}**\n"
+    md += "🟩 **Current Board**\n\n"
+
+    # Header kolom
+    md += "|   | A | B | C | D | E | F | G | H |\n"
+    md += "|---|---|---|---|---|---|---|---|---|\n"
+
+    emoji_map = {
+        ".": " ",
+        "B": "⚫",
+        "W": "⚪"
+    }
+
+    for row in range(8):
+        md += f"| {8-row} "
+        for col in range(8):
+            cell = board[row][col]
+            md += f"| {emoji_map.get(cell, ' ')} "
+        md += "|\n"
+
+    return md
+
+def render_readme(board, next_player):
+    with open(README_FILE, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    game_md = generate_game_md(board, next_player)
+
+    new_content = re.sub(
+        r"<!-- GAME-START -->.*?<!-- GAME-END -->",
+        f"<!-- GAME-START -->\n{game_md}\n<!-- GAME-END -->",
+        content,
+        flags=re.DOTALL
+    )
+
+    with open(README_FILE, "w", encoding="utf-8") as f:
+        f.write(new_content)
 
 if __name__ == "__main__":
     board, next_player = read_board()
