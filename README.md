@@ -18,31 +18,35 @@ Here I share various works and I hope you enjoy them.
 # Gaming For Fun 🎮
 
 ⏳ ***Game is in progress!***  
-Anyone can make the next move by [opening an issue](../../issues/new)  
-Just type the move in the issue title using this format: **`move: D3`**
+Anyone can make the next move by [opening a new issue](../../issues/new)  
+Use the issue title in this format: **`move: D3`**
 
 🧾 ***How to play***
-1. Click the link above to open a new issue.
-2. In the **issue title**, write your move using the format:  
-`move: D3` (or any coordinate A1–H8).
+1. Click the link above to create a new issue.
+2. In the **issue title**, type your move using this format:  
+   `move: C4` (must start with `move:` followed by a valid board coordinate).
 3. The system will:
-   - Validate your move (correct format, valid position, and turn),
-   - Flip the opponent's pieces,
-   - Update the board and save it automatically.
+   - Validate your move,
+   - Flip any opponent pieces,
+   - Update the board and commit it.
 
 ⚠️ ***Notes:***
-- `move:` must be written at the beginning of the title.
-- The move must be valid (your turn, cell not occupied, must flip at least one piece).
-- One move per issue.
-- No need to write anything else. Just one move at a time. 
-Make sure it's your turn (⚫ or ⚪)!
+- `move:` must be at the **start** of the title.
+- Coordinates must be within **A1 to H8**.
+- Only **valid moves** that flip opponent pieces are allowed.
+- One move per issue — no body text is needed.
+- Make sure it’s your turn! (**⚫ Black** or **⚪ White**)
+
+> ***Example:***
+✅ Valid:   move: D3  
+❌ Invalid: D3  
+❌ Invalid: move to D3  
 
 <br>
 
 🟩 ***Current Board***
 
 <!-- GAME-START -->
-<!-- GAME-END -->
 
 |   | A | B | C | D | E | F | G | H |
 |---|---|---|---|---|---|---|---|---|
@@ -54,6 +58,8 @@ Make sure it's your turn (⚫ or ⚪)!
 | 3 |   |   |   |   |   |   |   |   |
 | 2 |   |   |   |   |   |   |   |   |
 | 1 |   |   |   |   |   |   |   |   |
+
+<!-- GAME-END -->
 
 ✅ ***Next turn: ⚫ Black***
 
