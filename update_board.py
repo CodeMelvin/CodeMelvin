@@ -18,44 +18,34 @@ def write_board(board, next_player):
         f.write(f"\nNext: {next_player}\n")
 
 def render_readme(board, next_player):
-    header = """# ♟️ Community Reversi Game
+    header = "# ♟️ Community Reversi Game\n\n"
+    header += "⏳ **Game is in progress!**\n\n"
+    header += "Anyone can play the next move by [opening an issue](../../issues/new?title=Move:+D3).\n"
+    header += "It’s your turn! Just submit your move in the format: `D3`.\n\n"
+    header += "---\n\n"
+    header += "## 🟩 Current Board\n\n"
 
-🎮 **Game is in progress!**
+    # Column header
+    md = "| |A|B|C|D|E|F|G|H|\n"
+    md += "|-|-|-|-|-|-|-|-|-|\n"
 
-Anyone can play the next move by [opening an issue](../../issues/new?title=Move:+D3).  
-It’s your turn! Just submit your move in the format: `D3`
+    emoji_map = {
+        ".": "",
+        "B": "⚫",
+        "W": "⚪"
+    }
 
----
+    for row in range(8):
+        md += f"|{8-row}"
+        for col in range(8):
+            cell = board[row][col]
+            md += f"|{emoji_map.get(cell, '')}"
+        md += "|\n"
 
-## 🟩 Current Board
-
-|   | A | B | C | D | E | F | G | H |
-|---|---|---|---|---|---|---|---|---|
-"""
-    rows = []
-    for i, line in enumerate(board):
-        row_str = f"| {8-i} "
-        for cell in line:
-            if cell == ".":
-                row_str += "|   "
-            elif cell == "B":
-                row_str += "| ⚫ "
-            elif cell == "W":
-                row_str += "| ⚪ "
-            else:
-                row_str += "| ? "
-        row_str += "|"
-        rows.append(row_str)
-
-    table = "\n".join(rows)
-
-    footer = f"""
-
-✅ Next player: {'⚫ Black' if next_player == 'B' else '⚪ White'}
-"""
+    md += f"\n✅ Next player: {'⚫ Black' if next_player == 'B' else '⚪ White'}\n"
 
     with open(README_FILE, "w", encoding="utf-8") as f:
-        f.write(header + table + footer)
+        f.write(header + md)
 
 def parse_move():
     log = subprocess.check_output(["git", "log", "-1", "--pretty=%B"]).decode()
@@ -79,7 +69,7 @@ def apply_move(board, row, col, player):
             tmp.append((r,c))
             r += dr
             c += dc
-        if 0 <= r < 8 and 0 <= c < 8 and board[r][c] == player:
+        if 0 <= r < 8 and 0 <= c < 8 and board[r][c] == player and tmp:
             to_flip.extend(tmp)
     if not to_flip:
         raise ValueError("Invalid move, no pieces to flip.")

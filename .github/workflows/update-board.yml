@@ -13,9 +13,6 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt || true
-
       - name: Run board updater
         run: python update_board.py
 
