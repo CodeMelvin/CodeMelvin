@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTBxZmQ5czJoNWVxb2FwMW1qZ3lza3g0ZTdzaXR0Y3pjemptdTN6cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bJ4TVNYNUympPgcpem/giphy.gif" style="width: 900;" alt="Gif" />
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTBxZmQ5czJoNWVxb2FwMW1qZ3lza3g0ZTdzaXR0Y3pjemptdTN6cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bJ4TVNYNUympPgcpem/giphy.gif" style="width: 2000;" alt="Gif" />
 </div>
+
+<br>
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=CodeMelvin.CodeMelvin&left_color=mediumseagreen&right_color=steelblue" />
@@ -13,15 +15,15 @@ Here I share various works and I hope you enjoy them.
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-## 🎮 Gaming For Fun
+# Gaming For Fun 🎮
 
-⏳ **Game is in progress!**  
-Anyone can make the next move by [opening an issue](../../issues/new?title=Move:+D3)  
+⏳ ***Game is in progress!***  
+Anyone can make the next move by [opening an issue](../../issues/new)  
 Just type the move in the issue title, like: **D3**
 
 <br>
 
-🧾 **How to play**
+🧾 ***How to play***
 
 1. Click the link above to open a new issue.
 2. In the issue title, write your move (e.g., `E3`, `D2`, etc).
@@ -35,7 +37,7 @@ Make sure it's your turn (⚫ or ⚪)!
 
 <br>
 
-🟩 **Current Board**
+🟩 ***Current Board***
 
 |   | A | B | C | D | E | F | G | H |
 |---|---|---|---|---|---|---|---|---|
@@ -49,11 +51,11 @@ Make sure it's your turn (⚫ or ⚪)!
 | 1 |   |   |   |   |   |   |   |   
 |
 
-✅ **Next turn: ⚫ Black**
+✅ ***Next turn: ⚫ Black***
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-## Tech Stack
+# Tech Stack 💻 
 
 ### - Programming Languages
 <div align="left">
@@ -126,7 +128,7 @@ Make sure it's your turn (⚫ or ⚪)!
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-## 📈 GitHub Stats
+# GitHub Stats 📈
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=CodeMelvin&show_icons=true&theme=chartreuse-dark&hide_border=true" height="200" />
@@ -138,7 +140,7 @@ Make sure it's your turn (⚫ or ⚪)!
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-## 🌍 Social Media
+# Social Media 🌍
 
 <div align="left">
   <a href="https://www.youtube.com/@YourChannel" target="_blank">
@@ -160,7 +162,7 @@ Make sure it's your turn (⚫ or ⚪)!
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-## 🎯 You’ve Reached the End!
+# You’ve Reached the End! 🎯
 
 <img src="https://raw.githubusercontent.com/CodeMelvin/CodeMelvin/output/snake.svg" alt="Snake animation" />
 
