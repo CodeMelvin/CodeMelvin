@@ -7,27 +7,27 @@ README_FILE = "README.md"
 
 def init_board():
     return [
-        "........",
-        "........",
-        "........",
-        "...WB...",
-        "...BW...",
-        "........",
-        "........",
-        "........"
+        list("........"),
+        list("........"),
+        list("........"),
+        list("...WB..."),
+        list("...BW..."),
+        list("........"),
+        list("........"),
+        list("........")
     ]
 
 def read_board():
     with open(BOARD_FILE, "r", encoding="utf-8") as f:
         lines = [line.strip() for line in f.readlines()]
-    board = lines[:8]
+    board = [list(line) for line in lines[:8]]
     next_player = lines[-1].split(":")[1].strip()
     return board, next_player
 
 def write_board(board, next_player):
     with open(BOARD_FILE, "w", encoding="utf-8") as f:
         for row in board:
-            f.write(row + "\n")
+            f.write("".join(row) + "\n")
         f.write(f"\nNext: {next_player}\n")
 
 def parse_event():
@@ -53,6 +53,7 @@ def apply_move(board, row, col, player):
     directions = [(-1,0),(1,0),(0,-1),(0,1),(-1,-1),(-1,1),(1,-1),(1,1)]
     to_flip = []
     opponent = "W" if player == "B" else "B"
+
     for dr, dc in directions:
         r, c = row + dr, col + dc
         temp = []
@@ -66,9 +67,9 @@ def apply_move(board, row, col, player):
     if not to_flip:
         raise ValueError("❌ Invalid move. No opponent pieces to flip.")
 
-    board[row] = board[row][:col] + player + board[row][col+1:]
+    board[row][col] = player
     for r, c in to_flip:
-        board[r] = board[r][:c] + player + board[r][c+1:]
+        board[r][c] = player
 
     return board
 
