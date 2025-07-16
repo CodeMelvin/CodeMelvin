@@ -56,12 +56,12 @@ Use the issue title in this format: **`move: D3`**
 | 7 |   |   |   |   |   |   |   |   |
 | 6 |   |   |   |   |   |   |   |   |
 | 5 |   |   |   | ⚪ | ⚫ |   |   |   |
-| 4 |   |   |   | ⚪ | ⚫ | ⚫ |   |   |
+| 4 |   |   | ⚫ | ⚫ | ⚫ | ⚫ |   |   |
 | 3 |   |   |   | ⚪ |   |   |   |   |
 | 2 |   |   |   |   |   |   |   |   |
 | 1 |   |   |   |   |   |   |   |   |
 
-✅ **Next turn: ⚫ Black**
+✅ **Next turn: ⚪ White**
 <!-- GAME-END -->
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
