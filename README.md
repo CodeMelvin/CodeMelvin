@@ -33,11 +33,11 @@ Here I share various works and I hope you enjoy them.
 
 <br>
 
-<table align="center" width="100%">
+<table align="center">
 <tr>
 <td>
 
-<h3>🪪 Know Me</h3>
+🪪 Know Me 
 
 |  |  |
 |---|---|
@@ -45,8 +45,8 @@ Here I share various works and I hope you enjoy them.
 | 🏫 **University** | Universitas Bunda Mulia (UBM) |
 | 📊 **GPA** | 4.00 / 4.00 |
 | 🗓️ **Graduating** | 2026 / 2027 |
-| 🎯 **Focus** | • Building web applications<br>• Building computer vision models<br>• Analyzing data<br>• Debugging & fixing errors |
-| 🚀 **Status** | • Open to work<br>• Open to collaborate |
+| 🎯 **Focus** | Web apps · Computer vision · Data analysis · Debugging |
+| 🚀 **Status** | Open to work <br>Open to collaborate |
 
 </td>
 </tr>
