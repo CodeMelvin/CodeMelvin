@@ -10,63 +10,55 @@
 
 # こんにちは 👋
 
-Welcome to my Page!  
+Welcome to my Page!
 Here I share various works and I hope you enjoy them.
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-# Gaming For Fun 🎮
+# About Me 🙋‍♂️
 
-⏳ ***Game is in progress!***  
-Anyone can make the next move by [opening a new issue](../../issues/new)  
-Use the issue title in this format: **`move: D3`**
+<div align="center">
 
-🧾 ***How to play***
-1. Click the link above to create a new issue.
-2. In the **issue title**, type your move using this format:  
-   `move: C4` (must start with `move:` followed by a valid board coordinate).
-3. The system will:
-   - Validate your move,
-   - Flip any opponent pieces,
-   - Update the board and commit it.
+<!-- Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,100:0EA5E9&height=220&section=header&text=Melvin&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=45" width="100%"/>
 
-⚠️ ***Notes:***
-- `move:` must be at the **start** of the title.
-- Coordinates must be within **A1 to H8**.
-- Only **valid moves** that flip opponent pieces are allowed.
-- One move per issue — no body text is needed.
-- Make sure it’s your turn! (**⚫ Black** or **⚪ White**)
+<!-- Typing SVG -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=650&lines=Full+Stack+Engineer;AI+Analyst;Data+Scientist;Software+Engineer;AI-Assisted+Coding+Practitioner" alt="Typing SVG" />
+</a>
 
-> ***Example:***
-✅ Valid:   **move: D3**  
-❌ Invalid: **D3**  
-❌ Invalid: **move to D3**  
+</div>
 
-🔄 ***To restart the game (reset):***
-- Create an issue titled `reset: yes`
+<div align="center">
 
-<br>
+<img src="https://img.shields.io/badge/●-FF5F56?style=flat-square&label=&color=FF5F56" height="16"/><img src="https://img.shields.io/badge/●-FFBD2E?style=flat-square&label=&color=FFBD2E" height="16"/><img src="https://img.shields.io/badge/●-27C93F?style=flat-square&label=&color=27C93F" height="16"/>
+&nbsp;&nbsp;**Know me: ~**
 
-<!-- GAME-START -->
-🟩 **Current Board**
+</div>
 
-|   | A | B | C | D | E | F | G | H |
-|---|---|---|---|---|---|---|---|---|
-| 8 |   |   |   |   |   |   |   |   |
-| 7 |   |   |   |   |   |   |   |   |
-| 6 |   |   |   |   |   |   |   |   |
-| 5 |   |   |   | ⚪ | ⚫ |   |   |   |
-| 4 |   |   |   | ⚫ | ⚪ |   |   |   |
-| 3 |   |   |   |   |   |   |   |   |
-| 2 |   |   |   |   |   |   |   |   |
-| 1 |   |   |   |   |   |   |   |   |
+```bash
+background:~$ whoami
+Informatics student @ Universitas Bunda Mulia (UBM)
 
-✅ **Next turn: ⚫ Black**
-<!-- GAME-END -->
+background:~$ cat academic.txt
+> GPA          : 4.00 / 4.00
+> Graduating   : 2026 / 2027
+
+background:~$ cat focus.txt
+> Building web applications
+> Building computer vision models
+> Analyzing data
+> Debugging & fixing errors
+
+background:~$ echo $STATUS
+Open to work · Open to collaborate 🚀
+
+background:~$ _
+```
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-# Tech Stack 💻 
+# Tech Stack 💻
 
 ### - Programming Languages
 <div align="left">
@@ -139,29 +131,70 @@ Use the issue title in this format: **`move: D3`**
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-# GitHub Stats 📈
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CodeMelvin&show_icons=true&theme=chartreuse-dark&hide_border=true" height="200" />
-  <img src="https://streak-stats.demolab.com?user=CodeMelvin&theme=chartreuse-dark&hide_border=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=CodeMelvin&layout=compact&theme=chartreuse-dark&hide_border=true" height="150" />
-  <img src="https://github-profile-trophy.vercel.app/?username=CodeMelvin&theme=matrix&no-bg=true&no-frame=true" height="150" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CodeMelvin&theme=chartreuse-dark&area=true&hide_border=true" height="300" />
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
-
 # Social Media 🌍
 
 <div align="left">
   <a href="mailto:vinsjob90@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+  <a href="https://id.linkedin.com/in/melvin-wijaya-susanto" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-# You’ve Reached the End! 🎯
+# Gaming For Fun 🎮
+
+⏳ ***Game is in progress!***
+Anyone can make the next move by [opening a new issue](../../issues/new)
+Use the issue title in this format: **`move: D3`**
+
+🧾 ***How to play***
+1. Click the link above to create a new issue.
+2. In the **issue title**, type your move using this format:
+   `move: C4` (must start with `move:` followed by a valid board coordinate).
+3. The system will:
+   - Validate your move,
+   - Flip any opponent pieces,
+   - Update the board and commit it.
+
+⚠️ ***Notes:***
+- `move:` must be at the **start** of the title.
+- Coordinates must be within **A1 to H8**.
+- Only **valid moves** that flip opponent pieces are allowed.
+- One move per issue — no body text is needed.
+- Make sure it's your turn! (**⚫ Black** or **⚪ White**)
+
+> ***Example:***
+✅ Valid:   **move: D3**
+❌ Invalid: **D3**
+❌ Invalid: **move to D3**
+
+🔄 ***To restart the game (reset):***
+- Create an issue titled `reset: yes`
+
+<br>
+
+<!-- GAME-START -->
+🟩 **Current Board**
+
+|   | A | B | C | D | E | F | G | H |
+|---|---|---|---|---|---|---|---|---|
+| 8 |   |   |   |   |   |   |   |   |
+| 7 |   |   |   |   |   |   |   |   |
+| 6 |   |   |   |   |   |   |   |   |
+| 5 |   |   |   | ⚪ | ⚫ |   |   |   |
+| 4 |   |   |   | ⚫ | ⚪ |   |   |   |
+| 3 |   |   |   |   |   |   |   |   |
+| 2 |   |   |   |   |   |   |   |   |
+| 1 |   |   |   |   |   |   |   |   |
+
+✅ **Next turn: ⚫ Black**
+<!-- GAME-END -->
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+
+# You've Reached the End! 🎯
 
 <img src="https://raw.githubusercontent.com/CodeMelvin/CodeMelvin/output/snake.svg" alt="Snake animation" />
-

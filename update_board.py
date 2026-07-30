@@ -84,6 +84,26 @@ def count_score(board):
     white = sum(row.count("W") for row in board)
     return black, white
 
+def get_valid_moves(board, player):
+    directions = [(-1,0),(1,0),(0,-1),(0,1),(-1,-1),(-1,1),(1,-1),(1,1)]
+    opponent = "W" if player == "B" else "B"
+    valid = []
+    for row in range(8):
+        for col in range(8):
+            if board[row][col] != ".":
+                continue
+            for dr, dc in directions:
+                r, c = row + dr, col + dc
+                temp = []
+                while 0 <= r < 8 and 0 <= c < 8 and board[r][c] == opponent:
+                    temp.append((r, c))
+                    r += dr
+                    c += dc
+                if 0 <= r < 8 and 0 <= c < 8 and board[r][c] == player and temp:
+                    valid.append((row, col))
+                    break
+    return valid
+
 def generate_game_md(board, next_player):
     md = "🟩 **Current Board**\n\n"
     md += "|   | A | B | C | D | E | F | G | H |\n"
@@ -143,6 +163,10 @@ if __name__ == "__main__":
         move_row, move_col = parse_move(title)
         board = apply_move(board, move_row, move_col, next_player)
         next_player = switch_player(next_player)
+        if not get_valid_moves(board, next_player):
+            next_player = switch_player(next_player)
+            if not get_valid_moves(board, next_player):
+                pass  # neither player can move — game over
         write_board(board, next_player)
         render_readme(board, next_player)
 
