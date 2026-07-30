@@ -23,7 +23,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg
+          outputs: |
+            dist/snake.svg
+          generate_empty: true
 
       - name: push snake.svg to the output branch
         uses: peaceiris/actions-gh-pages@v4
