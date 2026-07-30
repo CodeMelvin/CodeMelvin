@@ -33,21 +33,14 @@ Here I share various works and I hope you enjoy them.
 
 <br>
 
-<table align="center" width="100%">
-<tr>
-<td width="100%">
-
-| Kategori | Detail |
-|---|---|
-| 🎓 **Role** | Informatics Student |
-| 🏫 **University** | Universitas Bunda Mulia (UBM) |
-| 📊 **GPA** | 4.00 / 4.00 |
-| 🗓️ **Graduating** | 2026 / 2027 |
-| 🎯 **Focus** | Web apps · Computer vision · Data analysis · Debugging |
-| 🚀 **Status** | Open to work <br>Open to collaborate |
-
-</td>
-</tr>
+<table align="center">
+<tr><td colspan="2"><img width="700" height="1" src="https://raw.githubusercontent.com/CodeMelvin/CodeMelvin/main/spacer.png"></td></tr>
+<tr><td width="30%">🎓 <b>Role</b></td><td>Informatics Student</td></tr>
+<tr><td>🏫 <b>University</b></td><td>Universitas Bunda Mulia (UBM)</td></tr>
+<tr><td>📊 <b>GPA</b></td><td>4.00 / 4.00</td></tr>
+<tr><td>🗓️ <b>Graduating</b></td><td>2026 / 2027</td></tr>
+<tr><td>🎯 <b>Focus</b></td><td>Web apps · Computer vision · Data analysis · Debugging</td></tr>
+<tr><td>🚀 <b>Status</b></td><td>Open to work<br>Open to collaborate</td></tr>
 </table>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
