@@ -41,10 +41,11 @@ Here I share various works and I hope you enjoy them.
 
 |  |  |
 |---|---|
-| 🎓 **Role** | Informatics student @ Universitas Bunda Mulia (UBM) |
+| 🎓 **Role** | Informatics Student |
+| 🏫 **University** | Universitas Bunda Mulia (UBM) |
 | 📊 **GPA** | 4.00 / 4.00 |
 | 🗓️ **Graduating** | 2026 / 2027 |
-| 🎯 **Focus** | Building web applications · Building computer vision models · Analyzing data · Debugging & fixing errors |
+| 🎯 **Focus** | Web apps · Computer vision · Data analysis · Debugging |
 | 🚀 **Status** | Open to work · Open to collaborate |
 
 </td>
