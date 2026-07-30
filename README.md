@@ -33,13 +33,11 @@ Here I share various works and I hope you enjoy them.
 
 <br>
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<td>
+<td width="100%">
 
-🪪 Know Me 
-
-|  |  |
+| Kategori | Detail |
 |---|---|
 | 🎓 **Role** | Informatics Student |
 | 🏫 **University** | Universitas Bunda Mulia (UBM) |
