@@ -34,8 +34,12 @@ Here I share various works and I hope you enjoy them.
 <br>
 
 <table align="center">
-<tr><td colspan="2"><img width="700" height="1" src="https://raw.githubusercontent.com/CodeMelvin/CodeMelvin/main/spacer.png"></td></tr>
-<tr><td width="30%">🎓 <b>Role</b></td><td>Informatics Student</td></tr>
+<tr>
+<td colspan="2" align="center">
+<b>KNOW ME !</b>
+</td>
+</tr>
+<tr><td width="50%">🎓 <b>Role</b></td><td>Informatics Student</td></tr>
 <tr><td>🏫 <b>University</b></td><td>Universitas Bunda Mulia (UBM)</td></tr>
 <tr><td>📊 <b>GPA</b></td><td>4.00 / 4.00</td></tr>
 <tr><td>🗓️ <b>Graduating</b></td><td>2026 / 2027</td></tr>
