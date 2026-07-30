@@ -20,7 +20,7 @@ Here I share various works and I hope you enjoy them.
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,100:0EA5E9&height=220&section=header&text=Melvin Wijaya Susanto&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=45" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,100:0EA5E9&height=220&section=header&text=Melvin%20Wijaya%20Susanto&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=45" width="100%"/>
 
 <!-- Typing SVG --> 
 <div style="margin-top: -15px;">

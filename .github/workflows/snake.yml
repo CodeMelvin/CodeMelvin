@@ -25,7 +25,8 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg
-          generate_empty: true
+          color_snake: "#1D4ED8"
+          color_dots: "#0EA5E9"
 
       - name: push snake.svg to the output branch
         uses: peaceiris/actions-gh-pages@v4
