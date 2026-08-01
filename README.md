@@ -25,7 +25,7 @@ Here I share various works and I hope you enjoy them.
 <!-- Typing SVG --> 
 <div style="margin-top: -15px;">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Data+Scientist;AI+Specialist" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Software+Quality+Assurance;AI+Specialist" alt="Typing SVG" />
   </a>
 </div>
 
@@ -81,8 +81,14 @@ Here I share various works and I hope you enjoy them.
 
 ### - Game Development
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="50" alt="unity logo" style="margin-right:16px; margin-bottom:12px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" height="50" alt="unrealengine logo" style="margin-right:16px; margin-bottom:12px;" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/unity/white" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="50" alt="unity logo" style="margin-right:16px; margin-bottom:12px;" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/unrealengine/white" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" height="50" alt="unrealengine logo" style="margin-right:16px; margin-bottom:12px;" />
+  </picture>
 </div>
 
 ### - AI / Machine Learning
@@ -90,6 +96,27 @@ Here I share various works and I hope you enjoy them.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="50" alt="tensorflow logo" style="margin-right:16px; margin-bottom:12px;" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="50" alt="opencv logo" style="margin-right:16px; margin-bottom:12px;" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="50" alt="numpy logo" style="margin-right:16px; margin-bottom:12px;" />
+</div>
+
+### - AI Stack
+<div align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/opencode.png" />
+    <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/opencode.png" height="50" alt="opencode logo" style="margin-right:16px; margin-bottom:12px;" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/gemini-color.png" />
+    <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/gemini-color.png" height="50" alt="gemini logo" style="margin-right:16px; margin-bottom:12px;" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/claude-color.png" />
+    <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/claude-color.png" height="50" alt="claude logo" style="margin-right:16px; margin-bottom:12px;" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/openai.png" />
+    <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/openai.png" height="50" alt="chatgpt logo" style="margin-right:16px; margin-bottom:12px;" />
+  </picture>
+  <img src="https://raw.githubusercontent.com/decolua/9router/master/public/favicon.svg" height="50" alt="9router logo" style="margin-right:16px; margin-bottom:12px;" />
 </div>
 
 ### - Database & Data Tools
@@ -101,8 +128,14 @@ Here I share various works and I hope you enjoy them.
 ### - Frameworks & Libraries
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="50" alt="laravel logo" style="margin-right:16px; margin-bottom:12px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="50" alt="flask logo" style="margin-right:16px; margin-bottom:12px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="50" alt="django logo" style="margin-right:16px; margin-bottom:12px;" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/flask/white" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="50" alt="flask logo" style="margin-right:16px; margin-bottom:12px;" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/django/white" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="50" alt="django logo" style="margin-right:16px; margin-bottom:12px;" />
+  </picture>
 </div>
 
 ### - Tools & IDEs
