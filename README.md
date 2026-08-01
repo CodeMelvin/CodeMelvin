@@ -91,14 +91,14 @@ Here I share various works and I hope you enjoy them.
   </picture>
 </div>
 
-### - AI / Machine Learning
+### - Machine Learning
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="50" alt="tensorflow logo" style="margin-right:16px; margin-bottom:12px;" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="50" alt="opencv logo" style="margin-right:16px; margin-bottom:12px;" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="50" alt="numpy logo" style="margin-right:16px; margin-bottom:12px;" />
 </div>
 
-### - AI Stack
+### - AI Tools
 <div align="left">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/opencode.png" />
@@ -116,7 +116,7 @@ Here I share various works and I hope you enjoy them.
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/openai.png" />
     <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/openai.png" height="50" alt="chatgpt logo" style="margin-right:16px; margin-bottom:12px;" />
   </picture>
-  <img src="https://raw.githubusercontent.com/decolua/9router/master/public/favicon.svg" height="56" alt="9router logo" style="margin-right:16px; margin-bottom:12px;" />
+  <img src="https://raw.githubusercontent.com/decolua/9router/master/public/icons/icon-512.svg" height="50" alt="9router logo" style="margin-right:16px; margin-bottom:12px;" />
 </div>
 
 ### - Database & Data Tools
@@ -138,7 +138,7 @@ Here I share various works and I hope you enjoy them.
   </picture>
 </div>
 
-### - Tools & IDEs
+### - Integrated Development Environments
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="50" alt="vscode logo" style="margin-right:16px; margin-bottom:12px;" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="50" alt="pycharm logo" style="margin-right:16px; margin-bottom:12px;" />
