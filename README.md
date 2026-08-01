@@ -116,7 +116,7 @@ Here I share various works and I hope you enjoy them.
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/openai.png" />
     <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/openai.png" height="50" alt="chatgpt logo" style="margin-right:16px; margin-bottom:12px;" />
   </picture>
-  <img src="https://raw.githubusercontent.com/decolua/9router/master/public/favicon.svg" height="50" alt="9router logo" style="margin-right:16px; margin-bottom:12px;" />
+  <img src="https://raw.githubusercontent.com/decolua/9router/master/public/favicon.svg" height="56" alt="9router logo" style="margin-right:16px; margin-bottom:12px;" />
 </div>
 
 ### - Database & Data Tools
