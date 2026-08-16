@@ -33,7 +33,7 @@ Here I share various works and I hope you enjoy them.
 
 <br>
 
-<table align="center">
+<table align="center" style="width:850px; max-width:100%;">
 <tr>
 <td colspan="2" align="center">
 <b>KNOW ME !</b>
@@ -209,20 +209,14 @@ Here I share various works and I hope you enjoy them.
 
 # Gaming For Fun 🎮
 
-⏳ ***Game is in progress!***
+⏳ ***Game is in progress!*** — anyone can play by [opening a new issue](../../issues/new).
 
-Anyone can make the next move by [opening a new issue](../../issues/new).
-
-Use the issue title in this format:
-
-> **`move: D6`**
-
-🧾 ***How to play***
+### 🧾 How to play
 
 1. Click the link above to create a new issue.
 2. In the **issue title**, type your move using this format:
 
-   > **`move: C5`**
+   > **`move: D6`**
 
    The title must start with `move:` followed by a valid board coordinate.
 3. The system will then:
@@ -230,16 +224,8 @@ Use the issue title in this format:
    - Flip any opponent pieces,
    - Update the board and commit it.
 
-⚠️ ***Important notes***
-- 🟩 on the board shows where the next player can move — pick any of those.
-- `move:` must be at the **start** of the title.
-- Coordinates must be within **A1 to H8**.
-- Only **valid moves** that flip opponent pieces are accepted.
-- One move per issue — no body text is needed.
-- Make sure it's your turn! (**⚫ Black** or **⚪ White**)
+### 💡 Example
 
-> ***Example:***
->
 > **✅ Valid:**
 > `move: D6`
 >
@@ -249,7 +235,17 @@ Use the issue title in this format:
 > **❌ Invalid:**
 > `move to D3`
 
-🏆 ***How to win***
+### ⚠️ Important notes
+
+- 🟩 on the board shows where the next player can move.
+- `move:` must be at the **start** of the title.
+- Coordinates must be within **A1 to H8**.
+- Only **valid moves** that flip opponent pieces are accepted.
+- One move per issue — no body text is needed.
+- Make sure it's your turn! (**⚫ Black** or **⚪ White**)
+
+### 🏆 How to win
+
 - The board fills up move by move.
 - When it's full (or no more moves are possible), the player with the most pieces on the board wins.
 
@@ -270,7 +266,7 @@ Use the issue title in this format:
 | 1 |   |   |   |   |   |   |   |   |
 
 ⚫ Black **to move**
-🟩 **Possible moves:** `D6`, `C5`, `F4`, `E3`
+🟩 **Possible moves for ⚫ Black:** `D6`, `C5`, `F4`, `E3`
 ➡️ **Next:** ⚪ White
 <!-- GAME-END -->
 
