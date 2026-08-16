@@ -143,8 +143,8 @@ def generate_game_md(board, next_player):
         if not get_valid_moves(board, after):
             after = switch_player(after)
         next_emoji = "⚫ Black" if after == "B" else "⚪ White"
-        md += f"\n{player_emoji} **to move**\n"
-        md += f"🟩 **Possible moves for {player_emoji}:** {moves_str}\n"
+        md += f"\n{player_emoji} **to move**\n\n"
+        md += f"🟩 **Possible moves for {player_emoji}:** {moves_str}\n\n"
         md += f"➡️ **Next:** {next_emoji}"
 
     return md

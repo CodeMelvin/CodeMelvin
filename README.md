@@ -37,6 +37,7 @@ Here I share various works and I hope you enjoy them.
 <tr>
 <td colspan="2" align="center">
 <b>KNOW ME !</b>
+<img width="850" height="1" src="spacer.png">
 </td>
 </tr>
 <tr><td width="30%">🤔 <b>Why COMEL?</b></td><td>COMEL is short for <b>CodeMelvin</b></td></tr>
@@ -266,7 +267,9 @@ Here I share various works and I hope you enjoy them.
 | 1 |   |   |   |   |   |   |   |   |
 
 ⚫ Black **to move**
+
 🟩 **Possible moves for ⚫ Black:** `D6`, `C5`, `F4`, `E3`
+
 ➡️ **Next:** ⚪ White
 <!-- GAME-END -->
 
