@@ -13,7 +13,6 @@
 Welcome to my Page!<br>
 Here I share various works and I hope you enjoy them.
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
 # About Me 🙋‍♂️
 
@@ -55,7 +54,6 @@ Here I share various works and I hope you enjoy them.
 <tr><td>🚀 <b>Status</b></td><td>Open to work<br>Open to collaborate</td></tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
 # Tech Stack 💻
 
@@ -143,7 +141,6 @@ Here I share various works and I hope you enjoy them.
   <a href="https://www.google.com" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" height="50" alt="google logo" /></a>
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
 # Social Media 🌍
 
@@ -156,7 +153,6 @@ Here I share various works and I hope you enjoy them.
   </a>
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
 # Gaming For Fun 🎮
 
@@ -223,7 +219,6 @@ Here I share various works and I hope you enjoy them.
 ➡️ **Next:** ⚪ White
 <!-- GAME-END -->
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
 # You've Reached the End! 🎯
 
