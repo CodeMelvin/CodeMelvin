@@ -37,10 +37,9 @@ Here I share various works and I hope you enjoy them.
 <tr>
 <td colspan="2" align="center">
 <b>KNOW ME !</b>
-<img width="850" height="1" src="spacer.png">
 </td>
 </tr>
-<tr><td width="30%">🎓 <b>Role</b></td><td>COMEL — short for CodeMelvin</td></tr>
+<tr><td width="30%">🤔 <b>Why COMEL?</b></td><td>COMEL is short for <b>CodeMelvin</b></td></tr>
 <tr><td>🎯 <b>Focus</b></td>
 <td>
 • Building web &amp; mobile applications<br>
@@ -250,9 +249,9 @@ Use the issue title in this format:
 > **❌ Invalid:**
 > `move to D3`
 
-🔄 ***To restart the game (reset) — owner only:***
-- Create an issue titled **`reset: yes`**
-- Non-owner moves are ignored so nobody else can wipe the game.
+🏆 ***How to win***
+- The board fills up move by move.
+- When it's full (or no more moves are possible), the player with the most pieces on the board wins.
 
 <br>
 
@@ -270,9 +269,9 @@ Use the issue title in this format:
 | 2 |   |   |   |   |   |   |   |   |
 | 1 |   |   |   |   |   |   |   |   |
 
-🟩 = possible move for the next player
-
-✅ **Next turn: ⚫ Black**
+⚫ Black **to move**
+🟩 **Possible moves:** `D6`, `C5`, `F4`, `E3`
+➡️ **Next:** ⚪ White
 <!-- GAME-END -->
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">

@@ -105,7 +105,8 @@ def get_valid_moves(board, player):
     return valid
 
 def generate_game_md(board, next_player):
-    valid_moves = set(get_valid_moves(board, next_player))
+    valid_moves = get_valid_moves(board, next_player)
+    valid_set = set(valid_moves)
     game_over = is_board_full(board) or not valid_moves
 
     md = "🎯 **Current Board**\n\n"
@@ -116,7 +117,7 @@ def generate_game_md(board, next_player):
     for row in range(8):
         md += f"| {8 - row} "
         for col in range(8):
-            if (row, col) in valid_moves:
+            if (row, col) in valid_set:
                 md += "| 🟩 "
             else:
                 md += f"| {emoji.get(board[row][col], ' ')} "
@@ -133,8 +134,18 @@ def generate_game_md(board, next_player):
         else:
             md += "🤝 **It's a Draw!**"
     else:
-        md += "\n🟩 = possible move for the next player\n\n"
-        md += f"✅ **Next turn: {'⚫ Black' if next_player == 'B' else '⚪ White'}**"
+        moves_str = ", ".join(
+            f"`{chr(c + ord('A'))}{8 - r}`"
+            for r, c in sorted(valid_moves, key=lambda x: (x[0], x[1]))
+        )
+        player_emoji = "⚫ Black" if next_player == "B" else "⚪ White"
+        after = switch_player(next_player)
+        if not get_valid_moves(board, after):
+            after = switch_player(after)
+        next_emoji = "⚫ Black" if after == "B" else "⚪ White"
+        md += f"\n{player_emoji} **to move**\n"
+        md += f"🟩 **Possible moves:** {moves_str}\n"
+        md += f"➡️ **Next:** {next_emoji}"
 
     return md
 
