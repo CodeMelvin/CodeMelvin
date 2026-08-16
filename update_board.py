@@ -159,6 +159,10 @@ if __name__ == "__main__":
         title = event["issue"]["title"]
 
         if title.lower().startswith("reset:"):
+            author = event["issue"]["user"]["login"]
+            owner = event["repository"]["owner"]["login"]
+            if author.lower() != owner.lower():
+                raise ValueError("❌ Only the repository owner can reset the game.")
             board = init_board()
             next_player = "B"
             write_board(board, next_player)
