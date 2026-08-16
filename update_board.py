@@ -105,7 +105,10 @@ def get_valid_moves(board, player):
     return valid
 
 def generate_game_md(board, next_player):
-    md = "🟩 **Current Board**\n\n"
+    valid_moves = set(get_valid_moves(board, next_player))
+    game_over = is_board_full(board) or not valid_moves
+
+    md = "🎯 **Current Board**\n\n"
     md += "|   | A | B | C | D | E | F | G | H |\n"
     md += "|---|---|---|---|---|---|---|---|---|\n"
 
@@ -113,10 +116,13 @@ def generate_game_md(board, next_player):
     for row in range(8):
         md += f"| {8 - row} "
         for col in range(8):
-            md += f"| {emoji.get(board[row][col], ' ')} "
+            if (row, col) in valid_moves:
+                md += "| 🟩 "
+            else:
+                md += f"| {emoji.get(board[row][col], ' ')} "
         md += "|\n"
 
-    if is_board_full(board):
+    if game_over:
         black_score, white_score = count_score(board)
         md += "\n🏁 **Game Over!**\n"
         md += f"🔢 Final Score: ⚫ Black = {black_score}, ⚪ White = {white_score}\n"
@@ -127,7 +133,8 @@ def generate_game_md(board, next_player):
         else:
             md += "🤝 **It's a Draw!**"
     else:
-        md += f"\n✅ **Next turn: {'⚫ Black' if next_player == 'B' else '⚪ White'}**"
+        md += "\n🟩 = possible move for the next player\n\n"
+        md += f"✅ **Next turn: {'⚫ Black' if next_player == 'B' else '⚪ White'}**"
 
     return md
 

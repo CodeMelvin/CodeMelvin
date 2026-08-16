@@ -209,6 +209,7 @@ Use the issue title in this format:
    - Update the board and commit it.
 
 ⚠️ ***Important notes***
+- 🟩 on the board shows where the next player can move — pick any of those.
 - `move:` must be at the **start** of the title.
 - Coordinates must be within **A1 to H8**.
 - Only **valid moves** that flip opponent pieces are accepted.
@@ -232,18 +233,20 @@ Use the issue title in this format:
 <br>
 
 <!-- GAME-START -->
-🟩 **Current Board**
+🎯 **Current Board**
 
 |   | A | B | C | D | E | F | G | H |
 |---|---|---|---|---|---|---|---|---|
 | 8 |   |   |   |   |   |   |   |   |
 | 7 |   |   |   |   |   |   |   |   |
-| 6 |   |   |   |   |   |   |   |   |
-| 5 |   |   |   | ⚪ | ⚫ |   |   |   |
-| 4 |   |   |   | ⚫ | ⚪ |   |   |   |
-| 3 |   |   |   |   |   |   |   |   |
+| 6 |   |   |   | 🟩 |   |   |   |   |
+| 5 |   |   | 🟩 | ⚪ | ⚫ |   |   |   |
+| 4 |   |   |   | ⚫ | ⚪ | 🟩 |   |   |
+| 3 |   |   |   |   | 🟩 |   |   |   |
 | 2 |   |   |   |   |   |   |   |   |
 | 1 |   |   |   |   |   |   |   |   |
+
+🟩 = possible move for the next player
 
 ✅ **Next turn: ⚫ Black**
 <!-- GAME-END -->
