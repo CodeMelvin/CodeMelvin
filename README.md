@@ -141,6 +141,12 @@ Here I share various works and I hope you enjoy them.
   <a href="https://www.google.com" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" height="50" alt="google logo" /></a>
 </div>
 
+### - Hosting & Deployment
+<div align="left">
+  <a href="https://vercel.com" target="_blank" rel="noopener"><img src="chips/vercel.svg" height="50" alt="vercel logo" /></a>
+  <a href="https://github.com" target="_blank" rel="noopener"><img src="chips/github.svg" height="50" alt="github logo" /></a>
+</div>
+
 
 # Social Media 🌍
 
